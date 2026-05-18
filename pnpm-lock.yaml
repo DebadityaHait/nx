@@ -2337,6 +2337,9 @@ importers:
       '@angular/build':
         specifier: catalog:angular-supported-versions
         version: 22.0.1(9415c92e86a7c8afc4fd3f2e0da3ef58)
+      '@nx/cypress':
+        specifier: workspace:*
+        version: link:../cypress
       '@nx/devkit':
         specifier: workspace:*
         version: link:../devkit
@@ -2349,6 +2352,9 @@ importers:
       '@nx/module-federation':
         specifier: workspace:*
         version: link:../module-federation
+      '@nx/playwright':
+        specifier: workspace:*
+        version: link:../playwright
       '@nx/rspack':
         specifier: workspace:*
         version: link:../rspack
@@ -2398,9 +2404,6 @@ importers:
         specifier: ^5.8.0
         version: 5.10.0
     devDependencies:
-      '@nx/cypress':
-        specifier: workspace:*
-        version: link:../cypress
       '@nx/vitest':
         specifier: workspace:*
         version: link:../vitest
@@ -2867,6 +2870,9 @@ importers:
       '@expo/metro':
         specifier: '>= 55.0.0'
         version: 56.0.0
+      '@nx/cypress':
+        specifier: workspace:*
+        version: link:../cypress
       '@nx/devkit':
         specifier: workspace:*
         version: link:../devkit
@@ -2876,6 +2882,9 @@ importers:
       '@nx/js':
         specifier: workspace:*
         version: link:../js
+      '@nx/playwright':
+        specifier: workspace:*
+        version: link:../playwright
       '@nx/react':
         specifier: workspace:*
         version: link:../react
@@ -3344,6 +3353,9 @@ importers:
       '@nuxt/schema':
         specifier: ^3.0.0 || ^4.0.0
         version: 3.21.2
+      '@nx/cypress':
+        specifier: workspace:*
+        version: link:../cypress
       '@nx/devkit':
         specifier: workspace:*
         version: link:../devkit
@@ -3353,6 +3365,9 @@ importers:
       '@nx/js':
         specifier: workspace:*
         version: link:../js
+      '@nx/playwright':
+        specifier: workspace:*
+        version: link:../playwright
       '@nx/vite':
         specifier: workspace:*
         version: link:../vite
