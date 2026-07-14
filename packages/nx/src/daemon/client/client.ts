@@ -1335,11 +1335,6 @@ export class DaemonClient {
       open(DAEMON_OUTPUT_LOG_FILE, 'a'),
       open(DAEMON_OUTPUT_LOG_FILE, 'a'),
     ]);
-    // Close handles left from a previous daemon start (e.g. stop() followed
-    // by another startInBackground(), as done when nx release updates the
-    // lock file) before dropping the references; node >= 26 aborts the
-    // process when an open FileHandle is garbage collected.
-    await Promise.all([this._out?.close(), this._err?.close()]);
     this._out = out;
     this._err = err;
 
